@@ -1,0 +1,30 @@
+{
+  "name": "stripePay",
+  "version": "1.0.0",
+  "description": "pay for site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevheniimoskalenko/stripe_pay.git"
+  },
+  "keywords": [
+    "stripe",
+    "payments"
+  ],
+  "author": "yevheniimoskalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevheniimoskalenko/stripe_pay/issues"
+  },
+  "homepage": "https://github.com/yevheniimoskalenko/stripe_pay#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.137.0"
+  }
+}
